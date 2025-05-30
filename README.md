@@ -7,11 +7,15 @@ You can visit the live version of the site here:
 [http://tomasoni-movie-db.infinityfreeapp.com](http://tomasoni-movie-db.infinityfreeapp.com)
 
 ## Features
-- Browse movies with details such as title, genre, year, and description  
+- Browse movies with details such as title, genre, year, and description
+- Discover new and most popular movies
 - Search functionality to find movies by title or genre  
 - Responsive layout for desktop and mobile devices  
 - Backend powered by PHP and MySQL database  
-- Simple and clean UI using HTML, CSS, and vanilla JavaScript  
+- Simple and clean UI using HTML, CSS, and JavaScript
+- Responsive layout for desktop and mobile devices
+- User registration and login functionality
+- Save favorite movies to personal account
 
 ## Technologies Used
 - PHP (server-side scripting)  
