@@ -10,7 +10,7 @@ You can visit the live version of the site here:
 
 ## Features
 
-- Browse a list of movies with details such as title, genre, year, and description  
+- Browse movies with details such as title, genre, year, and description  
 - Search functionality to find movies by title or genre  
 - Responsive layout for desktop and mobile devices  
 - Backend powered by PHP and MySQL database  
