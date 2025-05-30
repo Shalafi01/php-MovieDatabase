@@ -1,0 +1,433 @@
+*{
+	border: 0;
+	margin: 0;	
+}
+
+body, html {
+font-family: Arial, sans-serif;	
+}
+
+.padding {
+	padding-top: 46px;
+}
+
+/*=================FONT==================*/
+
+h1
+{
+    font-size: 42px;
+    margin-bottom: -20px;
+}
+
+h2
+{
+    font-size: 20px;
+    font-weight: normal;    
+}
+
+h3
+{
+    padding-bottom: 5px;
+    padding-left: 80px;
+}
+
+h4
+{
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-left: 75px;
+}
+
+.categorie
+{
+    color: white;
+    font-size: 28px;
+    background-color: #616161;
+    padding-top: 20px;
+    padding-bottom: 48px;
+    padding-left: 20px; 
+}
+
+.anteprime
+{
+    display: inline-flex;
+}
+
+div#rt
+{
+    position: absolute;
+    padding-top: 32px;
+    left: 38%;
+    font-size: 48px;
+}
+
+div#imdb
+{
+    position: absolute;
+    padding-top: 32px;
+    right: 38%;
+    font-size: 48px;
+}
+
+p.character
+{   
+    width: 276px;
+    white-space: normal;
+}
+
+/*=================PRESENTAZIONE==================*/
+
+.slide {
+	width: 192px;
+	height: 300px;
+	padding-right: 20px;
+}
+
+#scia::-webkit-scrollbar, .trail::-webkit-scrollbar {
+    display: none;
+}
+
+#next, #previus {
+    position: relative;
+    bottom: 36vh;
+    cursor: pointer;
+}
+
+#start, #end {
+    position: absolute;
+    bottom: 300px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#start {
+    left: 2%;
+}
+
+#end {
+    right: 2%;
+}
+
+p.name {
+	width: 260px;
+	max-height: 500px;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+input {
+	outline: none;
+}
+
+input#ricerca {	
+	width: 60%;
+	height: 40px;
+	border-radius: 20px;
+	display: inline-block;	
+	padding-left: 20px;
+}
+
+input#ricercaS {	
+	width: 5%;
+	min-width: 90px;
+	height: 40px;
+	border-radius: 20px;
+	display: inline-block;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 16px;
+}
+
+div#ricerca {
+	display: block;
+	text-align: center;
+	white-space: nowrap;
+  	width: 100%;
+}
+
+.freccia0, .freccia1 {
+    display: inline-block;
+    width: 70px;
+    height: 400px;
+    vertical-align: top;
+    background-color: black;
+    opacity: 0.6;
+    cursor: default; /* (aggiunto per chiarezza, opzionale) */
+}
+
+.freccia0 {
+    border-radius: 20px 0 0 20px;
+}
+
+.freccia1 {
+    border-radius: 0 20px 20px 0;
+    padding-left: 8px;
+}
+
+#salvaElemento {
+	position: absolute;
+	left: 372px;
+	top: 635px;
+	z-index: 1;
+	border: 0;
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+	background-size: cover;
+	cursor: pointer;
+}
+
+/*=================IMMAGINI==================*/
+
+#scheda {
+	width: 384px;
+	height: 600px;
+	padding: 20px 0 60px 20px;
+}
+
+img.cast, img.home {
+    width: 284px;
+    height: 400px;
+}
+
+img.home, img.poster, img.backdrop {
+    padding-bottom: 10px;
+}
+
+img.poster {
+    height: 640px;
+}
+
+img.backdrop {
+    width: 60%;
+}
+
+img.miniposter {
+	height: 153px;
+}
+
+img.minibackdrop {
+	width: 272px;
+}
+
+/*=================SEZIONI==================*/
+
+#info {	
+	position: absolute;
+	top: 67px;
+	left: 420px;
+	padding-right: 80px;
+	display: block;	
+	text-align: justify;
+	height: 660px;
+}
+
+.grey {
+	background-color: #616161;
+	color: white;
+}
+
+.overflow {
+	overflow-y: auto;	
+	padding-left: 30px;
+}
+
+#trailer, #recensori {
+    text-align: center;
+}
+
+#trailer {
+    margin-top: -60px;
+    padding-bottom: 110px;
+}
+
+#recensori {
+    padding: 20px 0 300px;
+}
+
+#video {
+    display: inline;
+    margin: auto;
+}
+
+#cast, .movie {
+    display: inline-block;
+    width: 284px;
+    height: auto;
+    vertical-align: top;
+    text-align: center;
+}
+
+.hidebutton {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+#cast {
+    padding: 0 0 30px 10px;
+}
+
+#attori {
+    position: relative;
+    top: -60px;
+    padding: 80px 80px 40px 0;
+}
+
+#scia, #images {
+    display: block;
+    white-space: nowrap;
+    overflow-x: auto;
+    margin: auto;
+    scroll-behavior: smooth;
+}
+
+#scia {
+    font-size: 22px;
+    width: 100%;
+    padding: 0 40px;
+}
+
+#images {
+    width: 80%;
+    height: 180px;
+}
+
+#image {
+    display: inline-block;
+    padding-left: 10px;
+    width: auto;
+    max-height: 153px;
+}
+
+.trail, .risultati {
+    scroll-behavior: smooth;
+    overflow-x: auto;
+    height: auto;
+}
+
+.trail {
+    display: inline-block;
+}
+
+.risultati {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.trail {
+    width: 92.4%;
+    overflow-y: hidden;
+}
+
+.risultati {
+    padding-left: 10px;
+    text-align: center;
+}
+
+.movie {
+    max-height: 800px;
+    margin-right: 10px;
+}
+
+.scorri {
+    display: block;
+    white-space: nowrap;
+    margin: auto;
+    scroll-behavior: smooth;
+    font-size: 0;
+    padding-left: 8px;
+}
+
+body#index, div#image {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #32a852;
+    overflow: hidden;
+    z-index: 9;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    z-index: 9;
+}
+
+.navbar a:hover {
+    background-color: #4dd672;
+}
+
+.account {
+    float: right;
+    overflow: hidden;
+}
+
+.account #dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    padding: 14px 16px;
+    font-family: inherit;
+    margin: 0;
+    min-width: 190px;
+    text-align: right;
+    display: block;
+    background-color: #4dd672 !important;
+}
+
+.dropdown {
+    display: none;
+    position: fixed;
+    right: 0;
+    left: auto;
+    width: 190px;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    float: right;
+}
+
+.dropdown a {
+    float: none;
+    display: block;
+    text-align: center;
+    padding: 12px 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown a:hover {
+    background-color: #d6d6d6;
+}
+
+.account:hover .dropdown {
+    display: block;
+}
+
+p#username,
+i {
+    display: inline-block;
+}
+
+i {
+    padding-left: 10px;
+}
