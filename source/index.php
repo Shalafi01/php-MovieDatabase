@@ -70,7 +70,7 @@
 		<div class="navbar">
 		    <a href="index.php">Home</a>
 		    <a href="ricerca.php">Ricerca</a>
-		    <a href="">About</a>
+		    <a href="about.php">About</a>
 		    <div class="account">
 		        <button id="dropbtn">
 		            <p id="username"><?= $utente ?></p>
