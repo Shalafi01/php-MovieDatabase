@@ -101,7 +101,7 @@ function fetchPageResults(string $title, int $page, float $offset, string $apiKe
 
         <?php if ($titolo !== ''): ?>
             <h4>Risultati della ricerca per '<?= htmlspecialchars($titolo, ENT_QUOTES, 'UTF-8') ?>':</h4>
-            <div class="risultati">
+            <div class="risultati" style="margin-left: 65px;">
                 <?php for ($i = 0; $i < count($movies); $i += 2): ?>
                     <div class="movie">
                         <a href="schedaFilm.php?id=<?= $movies[$i] ?>">
