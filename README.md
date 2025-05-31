@@ -6,7 +6,7 @@ This project allows users to browse and search for movies in a clean, responsive
 You can visit the live version of the site here:  
 [http://tomasoni-movie-db.infinityfreeapp.com](http://tomasoni-movie-db.infinityfreeapp.com)
 
-![Contacts App Screenshot](/img/screenshot_1.png)
+
 
 ## Features
 - Browse movies with details such as title, genre, year, and description
@@ -18,6 +18,8 @@ You can visit the live version of the site here:
 - Responsive layout for desktop and mobile devices
 - User registration and login functionality
 - Save favorite movies to personal account
+
+![Contacts App Screenshot](/img/screenshot_1.png)
 
 ## Technologies Used
 - PHP (server-side scripting)  
