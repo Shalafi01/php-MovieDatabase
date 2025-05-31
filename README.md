@@ -24,7 +24,7 @@ You can visit the live version of the site here:
 - User registration and login functionality
 - Save favorite movies to personal account
 
-![Contacts App Screenshot](/img/screenshot_1.png)
+<img src="img/screenshot_1.png" alt="Contacts App Screenshot" style="width: 400px;"/>
 
 ## Technologies Used
 - PHP (server-side scripting)  
@@ -49,13 +49,13 @@ You can visit the live version of the site here:
 - Data extraction from JSON files
 
 ## Screenshots
-![Contacts App Screenshot](img/screenshot_2.png)
+<img src="img/screenshot_2.png" alt="Contacts App Screenshot" style="width: 400px;"/>
 
-![Contacts App Screenshot](img/screenshot_3.png)
+<img src="img/screenshot_3.png" alt="Contacts App Screenshot" style="width: 400px;"/>
 
-![Contacts App Screenshot](img/screenshot_4.png)
+<img src="img/screenshot_4.png" alt="Contacts App Screenshot" style="width: 400px;"/>
 
-<img src="img/screenshot_5.jpg" alt="Contacts App Screenshot" style="width: 400px;"/>
+<img src="img/screenshot_5.jpg" alt="Contacts App Screenshot" style="width: 300px;"/>
 
-<img src="img/screenshot_6.jpg" alt="Contacts App Screenshot" style="width: 400px;"/>
+<img src="img/screenshot_6.jpg" alt="Contacts App Screenshot" style="width: 300px;"/>
 
