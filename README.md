@@ -55,7 +55,7 @@ You can visit the live version of the site here:
 
 <img src="img/screenshot_4.png" alt="Contacts App Screenshot" style="width: 700px;"/>
 
-<div style="display: flex; gap: 20px;">
+<div style="display: flex; gap: 50px;">
   <img src="img/screenshot_5.jpg" alt="Screenshot 1" style="width: 300px;">
   <img src="img/screenshot_6.jpg" alt="Screenshot 2" style="width: 300px;">
 </div>
