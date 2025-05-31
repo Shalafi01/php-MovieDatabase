@@ -2,11 +2,16 @@
 Welcome to **PHP Movie Database**, a simple web application built with PHP, MySQL, HTML, CSS, and JavaScript.  
 This project allows users to browse and search for movies in a clean, responsive interface.
 
+## Table of Contents
+- [Live Demo](#live-demo)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Features and methods used](#features-and-methods-used)
+- [Screenshots](#screenshots)
+
 ## Live Demo
 You can visit the live version of the site here:  
 [http://tomasoni-movie-db.infinityfreeapp.com](http://tomasoni-movie-db.infinityfreeapp.com)
-
-
 
 ## Features
 - Browse movies with details such as title, genre, year, and description
