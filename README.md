@@ -42,3 +42,15 @@ You can visit the live version of the site here:
 - Password hashing
 - External API call
 - Data extraction from JSON files
+
+## Screenshots
+![Contacts App Screenshot](img/screenshot_2.png)
+
+![Contacts App Screenshot](img/screenshot_3.png)
+
+![Contacts App Screenshot](img/screenshot_4.png)
+
+![Contacts App Screenshot](img/screenshot_5.png)
+
+![Contacts App Screenshot](img/screenshot_6.png)
+
