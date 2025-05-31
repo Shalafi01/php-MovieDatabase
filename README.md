@@ -50,7 +50,7 @@ You can visit the live version of the site here:
 
 ![Contacts App Screenshot](img/screenshot_4.png)
 
-![Contacts App Screenshot](img/screenshot_5.png)
+![Contacts App Screenshot](img/screenshot_5.jpg)
 
-![Contacts App Screenshot](img/screenshot_6.png)
+![Contacts App Screenshot](img/screenshot_6.jpg)
 
